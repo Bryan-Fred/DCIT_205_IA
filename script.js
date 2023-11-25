@@ -10,7 +10,7 @@ window.addEventListener('scroll', function() {
       header.style.height = '150px';
       headerContent.style.height = '60px';
     }
-  });
+});
 
 const hamburgerMenu = document.getElementById('hamburgerMenu');
 const menuOverlay = document.getElementById('menuOverlay');
@@ -53,7 +53,7 @@ function scrollStepFunction() {
     }
 }
     requestAnimationFrame(scrollStepFunction);
-  }
+}
 
   const scrollToTopDiv = document.querySelector('.top-arrow-section');
   scrollToTopDiv.addEventListener('click', scrollToTop);
@@ -64,6 +64,17 @@ scrollToTopButtonDuplicate.addEventListener('click', scrollToTop);
 document.getElementById('programsLink').addEventListener('click', function (e) {
   e.preventDefault();
   const scrollDistance = 570;
+
+  window.scroll({
+      top: scrollDistance,
+      behavior: 'smooth'
+  });
+});
+
+
+document.getElementById('shortCoursesLink').addEventListener('click', function (e) {
+  e.preventDefault();
+  const scrollDistance = 1170;
 
   window.scroll({
       top: scrollDistance,
