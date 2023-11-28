@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+body .page-title{
+    height: 200px;
+    background-image: linear-gradient(91.01deg, rgb(98, 0, 89) 3.46%, rgb(1, 126, 124) 95.48%);
+    display: grid;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 170px;
+}
+
+.page-title h1{
+    color: white;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+
+.welcome-page{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    column-gap: 20px;
+}
+
+.welcome-page .left-section{
+    
+}
+
+.left-section ul{
+    list-style-type: none;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+.left-section a{
+    text-decoration: none;
+    color: rgb(177, 4, 14);
+    font-weight: bold;
+}
+
+.left-section li{
+    border-bottom: 1px solid rgb(204, 201, 201);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    transition: border-left 0.15s;
+    font-size: 20px;
+}
+
+.left-section li:hover{
+    border-left: 5px solid black;
+    text-decoration: underline;
+    color: black;
+}
+
+.right-section{
+  font-family: sans-serif;
+  padding-left: 30px;
+}
+
+p{
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
+
+

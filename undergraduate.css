@@ -313,3 +313,9 @@ b{
     right: -30px;
     top: -10px;
 }
+
+strong{
+    position: relative;
+    top: -5px;
+    right: -200px;
+  }
