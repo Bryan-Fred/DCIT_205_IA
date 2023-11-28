@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+
+.page-photo{
+    background-image: url(photos/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-top: 170px;
+}
+
+.about-content{
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 1px 2px 20px rgb(207, 204, 204);
+    font-family: sans-serif;
+    font-size: 22px;
+    padding-left: 30px;
+    text-align: justify;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    color: #767676;
+
+}
+
+.cover{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.about-h1{
+    font-size: 55px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    width: 300px;
+    position: relative;
+    top: 130px;
+    left: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 100px;
+    right: 80px;
+    width: 50px;
+    height: 50px;
+    border-radius: ;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Transition for opacity */
+  }
+  
+  #scrollToTopBtn.show {
+    opacity: 1;
+  }
