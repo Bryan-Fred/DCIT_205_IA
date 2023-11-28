@@ -81,3 +81,14 @@ document.getElementById('shortCoursesLink').addEventListener('click', function (
       behavior: 'smooth'
   });
 });
+
+
+document.getElementById('eventsPage').addEventListener('click', function (e) {
+  e.preventDefault();
+  const scrollDistance = 2300;
+
+  window.scroll({
+      top: scrollDistance,
+      behavior: 'smooth'
+  });
+});
